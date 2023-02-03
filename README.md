@@ -62,7 +62,7 @@ These input values were added with some random weights along with the activation
 
 The output layers depend on which color mode we select. Using RGB, CMYK, and HSV, and HSL we generated our images. If we are not using any color mode just the input data were gone through a neural network and gives 3 output layers for R, G, B channels. But if we use color mode each pixel again goes under their own maths calculation for changing the values.
 
-Some images generated with RGB color mode
+## Some images generated with RGB color mode
 
 <table>
   <tbody>
@@ -80,7 +80,7 @@ Some images generated with RGB color mode
 
 
 
-Some images generated with HSV and HSL color Mode
+## Some images generated with HSV and HSL color Mode
 
 <table>
   <tbody>
@@ -95,7 +95,7 @@ Some images generated with HSV and HSL color Mode
   </tbody>
 </table>
 
-## Converting input values into specified color mode
+### Converting input values into specified color mode
 
 Changing input data into CMYK format by adding their input weights
 The R, G, B values are divided by 255 to change the range from 0 to 1.
@@ -105,7 +105,7 @@ The cyan color will be calculated from red and k[black] c = (1-R-K) / (1-K)
 The Magenta color will be calculated from green and black m = (1-G-K) / (1-K)
 The yellow color will be calculated from blue and black y = (1-B-K) / (1 - K) 
 
-Some images were generated using CMYK color mode
+## Some images were generated using CMYK color mode
 
 <table>
   <tbody>
